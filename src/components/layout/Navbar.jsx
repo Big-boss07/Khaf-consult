@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react';
 import { Container } from './Container';
 import { Button } from '../ui/Button';
 import { cn } from '../ui/Button';
+import logo from '../../assets/khaf_logo_1775633274174.png';
 
 const links = [
   { name: 'Home', path: '/' },
@@ -40,7 +41,7 @@ export function Navbar() {
       <Container className="flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
           <img 
-            src="/src/assets/khaf_logo_1775633274174.png" 
+            src={logo} 
             alt="Khaf CONSULTS Logo" 
             className="h-10 w-10 object-contain transition-transform group-hover:scale-105" 
           />

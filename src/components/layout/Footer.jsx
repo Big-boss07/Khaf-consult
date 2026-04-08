@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, ChevronRight } from 'lucide-react';
 import { Container } from './Container';
+import logo from '../../assets/khaf_logo_1775633274174.png';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,7 +17,7 @@ export function Footer() {
             <div className="space-y-6">
                <div className="flex items-center gap-3">
                 <div className="bg-white p-1.5 rounded-md">
-                  <img src="/src/assets/khaf_logo_1775633274174.png" alt="Khaf CONSULTS" className="h-10 w-10 object-contain" />
+                  <img src={logo} alt="Khaf CONSULTS" className="h-10 w-10 object-contain" />
                 </div>
                 <div className="flex flex-col">
                   <span className="font-serif text-xl font-bold leading-tight">

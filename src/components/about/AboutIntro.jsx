@@ -1,6 +1,7 @@
 import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
 import { Container } from '../layout/Container';
+import aboutBg from '../../assets/About.png';
 
 export function AboutIntro() {
   return (
@@ -12,7 +13,7 @@ export function AboutIntro() {
           <div className="absolute -inset-4 bg-brand-navy/5 rounded-[32px] transform -rotate-3" />
           <div className="absolute -inset-4 bg-brand-gold/10 rounded-[32px] transform rotate-3" />
           <img 
-            src="/src/assets/about_bg_1775633543801.png" 
+            src={aboutBg} 
             alt="Tpl. Olajide Marufu Akintunde" 
             className="relative z-10 w-full h-[600px] object-cover rounded-2xl shadow-2xl"
           />

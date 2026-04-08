@@ -4,6 +4,7 @@ import { ArrowRight, Building2, Map } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Container } from '../layout/Container';
 import { Button } from '../ui/Button';
+import heroBg from '../../assets/hero_bg_1775633300140.png';
 
 export function Hero() {
   return (
@@ -11,7 +12,7 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/src/assets/hero_bg_1775633300140.png" 
+          src={heroBg} 
           alt="Urban Planning Aerial View" 
           className="w-full h-full object-cover object-center opacity-40"
         />
